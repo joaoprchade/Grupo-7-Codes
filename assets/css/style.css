@@ -1,0 +1,82 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    margin: 0.1rem;
+}
+
+.logo {
+    font-size: x-large;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lista {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.vencimento {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 11.5rem;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    padding: 0.3rem;
+    border: solid black 1px;
+    border-radius: 0.5rem;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa {
+    display: flex;
+    margin: 0.5rem;
+    border: 1px solid black;
+    height: 20%;
+    width: 80%;
+    padding: 0.5rem;
+}
+
+.logo {
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.adicionar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 2rem;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    border: solid black 1px;
+    border-radius: 0.5rem;
+}
+
+.titulo {
+    font-size: x-large;
+    margin: 0.5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.3rem;
+}
