@@ -1,6 +1,14 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
 .linha {
     display: flex;
     flex-direction: row;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 100%;
 }
 
 .coluna {
@@ -10,17 +18,19 @@
 
 .classesF {
     display: flex;
+    flex-direction: row;
     flex-wrap:wrap ;
     justify-content: space-around;
-    flex-direction: row;
     
 }
 
 .produto{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 25%;
-    height: 100%;
+    height: 50%;
     margin-right: 1rem;
     margin-top: 0.5rem;
     margin-left: 0.8rem;
@@ -45,22 +55,17 @@
     margin-left: 0.5rem;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    width: 100%;
-    height: 3rem;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    
-}
-
 .centro{
-    margin-left:8rem;
+    display: flex;
+    width: 52%;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
 }
 
 .font{
     font-size:x-large;
     margin: 1rem;
 }
+

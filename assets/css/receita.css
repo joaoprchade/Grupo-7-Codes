@@ -40,7 +40,7 @@ main {
 
 .secao1{
     font-size: x-large;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
     font-weight: bold;
 }
@@ -53,11 +53,19 @@ main {
 }
 
 
-.receita,.ingredientes{
+.receita{
     border: solid black 1px;
     width:100%;
     padding: 1rem;
     height: 14rem;
+    font-size: large;
+}
+
+.ingredientes{
+    border: solid black 1px;
+    width:100%;
+    padding: 1rem;
+    height: 6rem;
     font-size: large;
 }
 

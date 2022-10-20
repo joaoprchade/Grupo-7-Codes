@@ -21,7 +21,8 @@ main {
 }
 
 .secao{
-    margin-top: 1.5rem;
+    margin-top: 2rem;
+    width: 60%;
     margin-bottom: 0.5rem;
     font-weight: bold;
     font-size: x-large;
@@ -36,7 +37,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: 3rem;
     width: 100%;
     padding: 0.3rem;
     border: solid black 1px;
@@ -45,7 +46,7 @@ main {
 
 .topico{
     font-weight: bold;
-    width: 52%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -72,15 +73,15 @@ main {
 
 .redondo{
     position: relative;
-    left: 30%;
+    left: 33%;
     width: 15%;
-    top: 1.5rem;
+    top: 1rem;
 }
 
 .foto{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    width: 5rem;
+    width: 6rem;
 }
 
 .legenda{
@@ -89,10 +90,14 @@ main {
 }
 
 .comida{
-    width: 2.5rem;
+    width: 3rem;
 }
 
 .titulo{
     font-size: large;
     font-weight: bold;
+}
+
+.margem{
+    margin-left: 4.5rem;
 }
