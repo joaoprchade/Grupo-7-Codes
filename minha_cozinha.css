@@ -1,0 +1,98 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    margin: 1rem;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.secao{
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.cozinha{
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.receitas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3rem;
+    width: 100%;
+    padding: 0.3rem;
+    border: solid black 1px;
+    border-radius: 0.5rem;
+}
+
+.topico{
+    font-weight: bold;
+    width: 52%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.qtd{
+    margin-top: 1.7rem;
+}
+
+.lista {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.voltar{
+    position: fixed;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+.redondo{
+    position: relative;
+    left: 43%;
+    width: 15%;
+    top: 1.5rem;
+}
+
+.foto{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 6rem;
+}
+
+.legenda{
+    margin-top: 0.15rem;
+    text-align: center;
+}
+
+.comida{
+    width: 4rem;
+}
+
+.titulo{
+    font-size: large;
+    font-weight: bold;
+}
