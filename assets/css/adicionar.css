@@ -55,6 +55,7 @@ main {
 
 .qtd {
     margin-top: 1.7rem;
+    align-items: flex-end;
 }
 
 .lista {
@@ -90,7 +91,8 @@ main {
 }
 
 .comida {
-    width: 3rem;
+    width: 5rem;
+    margin-bottom: 2rem;
 }
 
 .titulo {
@@ -100,4 +102,27 @@ main {
 
 .margem {
     margin-left: 4.5rem;
+}
+
+.mais {
+    width: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.menos {
+    width: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.grama {
+    margin-top: 2.3rem;
+    font-size: large;
+}
+
+.contorno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+    border: 1px solid black;
 }
