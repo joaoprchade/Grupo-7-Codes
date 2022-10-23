@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    background-color: #DBB657;
 }
 
 main {
@@ -100,4 +101,16 @@ main {
 
 .margem {
     margin-left: 4.5rem;
+}
+
+.qtd1{
+    margin-top: 1.7rem;
+    background-color: #e45c54;
+    padding-top: 0.5rem;
+    border: solid black 0.05rem;
+    border-radius: 0.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    position: relative;
+    bottom: 0.5rem;
 }

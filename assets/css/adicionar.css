@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    background-color: #DBB657;
 }
 
 main {
@@ -40,7 +41,7 @@ main {
     margin-top: 3rem;
     width: 100%;
     padding: 0.3rem;
-    border: solid black 1px;
+    border: solid #96553f 0.1rem;
     border-radius: 0.5rem;
 }
 
@@ -124,6 +125,11 @@ main {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 1rem;
-    border: 1px solid black;
+    border:  solid #96553f 0.1rem;
     border-radius: 1rem;
+    background-color: white;
+}
+
+.verde{
+    color: #90A375;
 }

@@ -2,14 +2,35 @@ html,
 body {
     height: 100%;
     width: 100%;
+    background-color: #dbb657;
 }
 
 main {
     margin: 0.1rem;
+    
 }
 
 .logo {
     font-size: x-large;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo1{
+    font-size: x-large;
+    color: #E45C54;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0.08rem;
+    bottom: 3.4rem;
 }
 
 .linha {
@@ -33,8 +54,9 @@ main {
     height: 11.5rem;
     margin: 0 0.5rem 0.5rem 0.5rem;
     padding: 0.3rem;
-    border: solid black 1px;
+    border: solid #96553F 0.1rem;
     border-radius: 0.5rem;
+    background-color: white;
 }
 
 .coluna {
@@ -45,18 +67,13 @@ main {
 .caixa {
     display: flex;
     margin: 0.5rem;
-    border: 1px solid black;
+    border: 0.2rem solid #96553F;
     height: 20%;
     width: 80%;
     padding: 0.5rem;
 }
 
-.logo {
-    display: flex;
-    height: 3.5rem;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .adicionar {
     display: flex;
@@ -65,8 +82,9 @@ main {
     height: 2rem;
     margin: 0.5rem;
     padding: 0.3rem;
-    border: solid black 1px;
+    border: solid #96553F 0.1rem;
     border-radius: 0.5rem;
+    background-color: white;
 }
 
 .titulo {
@@ -90,4 +108,22 @@ main {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+}
+
+.excla{
+    color:#E45C54;
+}
+
+.gela{
+    color: black;
+}
+
+footer{
+    background-color: #c8c2d0;
+    border-top: solid black 0.05rem;
+    height: 15%;
+}
+
+header{
+    height: 9%;
 }

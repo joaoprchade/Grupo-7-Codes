@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    background-color: #DBB657;
 }
 
 main {
@@ -39,8 +40,9 @@ main {
     margin-top: 1rem;
     width: 100%;
     padding: 0.3rem;
-    border: solid black 1px;
+    border: solid #96553f 0.1rem;
     border-radius: 0.5rem;
+    background-color:white;
 }
 
 .topico{
@@ -95,4 +97,16 @@ main {
 .titulo{
     font-size: large;
     font-weight: bold;
+}
+
+.qtd1{
+    margin-top: 1.7rem;
+    background-color: #90a375;
+    padding-top: 0.5rem;
+    border: solid black 0.05rem;
+    border-radius: 0.3rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    position: relative;
+    bottom: 0.5rem;
 }
