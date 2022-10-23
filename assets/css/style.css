@@ -11,19 +11,23 @@ main {
 }
 
 .logo {
+    width: 100%;
     font-size: x-large;
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     height: 3.5rem;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
 .logo1{
+    width: 100%;
     font-size: x-large;
     color: #E45C54;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     height: 3.5rem;
     align-items: center;
@@ -31,6 +35,7 @@ main {
     position: relative;
     left: 0.08rem;
     bottom: 3.4rem;
+    
 }
 
 .linha {
@@ -90,6 +95,9 @@ main {
 .titulo {
     font-size: x-large;
     margin: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    
 }
 
 .navbar {
@@ -126,4 +134,9 @@ footer{
 
 header{
     height: 9%;
+}
+
+.preto{
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
 }

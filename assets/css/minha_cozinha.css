@@ -19,13 +19,15 @@ main {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 1rem;
+    align-items: center;
 }
 
 .secao{
     margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
     font-weight: bold;
     font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .cozinha{
@@ -56,6 +58,7 @@ main {
 
 .qtd{
     margin-top: 1.7rem;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .lista {
@@ -88,6 +91,16 @@ main {
 .legenda{
     margin-top: 0.15rem;
     text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+}
+
+.legenda1{
+    margin-top: 0.15rem;
+    margin-right: 2rem;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
 }
 
 .comida{
@@ -97,6 +110,7 @@ main {
 .titulo{
     font-size: large;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .qtd1{
@@ -109,4 +123,9 @@ main {
     padding-right: 0.3rem;
     position: relative;
     bottom: 0.5rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.font{
+    font-family: 'Montserrat', sans-serif;
 }
