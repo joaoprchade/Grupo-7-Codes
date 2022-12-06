@@ -93,10 +93,11 @@ main {
 }
 
 .titulo {
-    font-size: x-large;
+    font-size:x-large;
     margin: 0.5rem;
     font-family: 'Montserrat', sans-serif;
     color:black;
+    text-decoration: none;
     
 }
 
@@ -110,6 +111,8 @@ main {
 
 .larg{
     width: 90%;
+    color: black;
+    text-decoration: none;
 }
 
 .larg1{
@@ -139,4 +142,9 @@ header{
 .preto{
     color: black;
     font-family: 'Fira Sans', sans-serif;
+}
+
+.linke{
+    color: black;
+    text-decoration: none;
 }

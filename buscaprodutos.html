@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="375px, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style1.css">
+    <link rel="stylesheet" href="assets/css/buscaproduto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
@@ -20,14 +20,18 @@
 
 <body class="coluna">
     <p class="centro">
-        <a href="menu_inicial.html">
+        <a class="preto" href="menu_inicial.html">
         <i class="material-symbols-rounded voltar">arrow_back_ios_new</i>
         </a>
         <i class="material-symbols-rounded redondo" style="font-size:60px;">add_circle</i>
     </p>
     <ul class="busca">
-        <i class="material-symbols-rounded simbolo">search</i>
-        <li class="margem"> Adicionar Produto...</li>
+        <li>
+        <button class="botao"><i class="material-symbols-rounded simbolo">search</i></button>
+        </li>
+        <li class="tamanho">
+        <input class="margem" type="text" placeholder="Buscar Produto..">
+        </li>
     </ul>
     <ul class="classesF">
         <li class="produto">
@@ -36,7 +40,7 @@
         </li>
         
         <li class="produto1">
-            <a href="adicionar.html">
+            <a class="linke" href="adicionar.html">
             <img class="foto" src="img/meat.png" alt="">
             <p class="preto">Proteínas</p>
             </a>
