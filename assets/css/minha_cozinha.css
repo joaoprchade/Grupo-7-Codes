@@ -14,6 +14,13 @@ main {
     flex-direction: column;
 }
 
+.coluna1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.3rem;
+}
+
+
 .linha {
     display: flex;
     flex-direction: row;
